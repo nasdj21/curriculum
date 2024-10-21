@@ -53,7 +53,7 @@ a{
     text-decoration: none;
 }
 
-#Contacto:not(#titulo-contacto){
+#contacto .contenido-contacto{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
