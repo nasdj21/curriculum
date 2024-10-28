@@ -1,0 +1,47 @@
+.header{
+    display:grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-areas: "A B" "C B";
+
+    margin: 4px 2px 8px 2px; 
+    border: 0.2pt solid #372d2d;
+    padding: 1.5% 1.5%;
+    padding-left: 1.2%; 
+    padding-right: 1.2%; 
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 0px #372d2d;
+    
+}
+
+.titulo{
+    font-weight: bold;
+    font-family: "Kanit";
+    font-size: 3.80rem;
+    grid-area: A;
+    align-self: center;
+  
+}
+
+.subtitulo{
+    grid-area: C;
+    align-self: center;
+}
+
+
+
+#foto{
+    width: 300px;
+    height: 250x;
+    align-self: center;
+    grid-area: B;
+    border-radius: 70px;
+}
+
+
+
+
+
+
+
+

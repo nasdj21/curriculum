@@ -1,0 +1,21 @@
+.navHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    
+}
+
+.navItems{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    font-size: 1.3rem;
+
+}
+
+.navItems li a{
+    color: #372d2d;
+
+}

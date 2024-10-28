@@ -1,0 +1,104 @@
+
+body{
+    font-family: "Roboto Mono", sans-serif;
+}
+
+body{
+    background-color: #e8e5dd;
+    color:#372d2d;
+    font-size: 0.9rem;
+}
+
+.divisor{
+    height: 10px;
+    border: none;
+    border-radius: 10px;
+    background:  #7a6b68;
+}
+
+
+section{
+    margin: 4px 2px 8px 2px; 
+    
+    padding: 1.5% 1.5%;
+    padding-left: 1.2%; 
+    padding-right: 1.2%; 
+    
+
+}
+
+.educacionAcademica{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+    
+#colegio, #universidad{
+    flex:1;
+    max-width: 32%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+#colegio:hover, #universidad:hover{
+    transform: translateY(-5px);
+}
+
+#colegio:active, #universidad:active{
+    transform: translateY(2px);
+}
+
+
+
+section form {
+    /* Modelo de diseño en cuadrícula */
+    display: grid;									
+    row-gap: 0.5rem;
+
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#contenido-contacto{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 20px;
+}
+
+
+#mapa{
+    height: 500px;
+    flex: 1 1 45%;
+}
+
+#formularioContacto{
+    flex: 1 1 45%;
+}
+
+
+input, textarea{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+
+
