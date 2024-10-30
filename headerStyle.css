@@ -17,7 +17,7 @@
 .titulo{
     font-weight: bold;
     font-family: "Kanit";
-    font-size: 5rem;
+    font-size: 3rem;
     grid-area: A;
     align-self: center;
   
@@ -26,13 +26,13 @@
 .subtitulo{
     grid-area: C;
     align-self: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 
 
 #foto{
-    width: 500px;
+    width: 340px;
     align-self: center;
     grid-area: B;
     border-radius: 70px;
