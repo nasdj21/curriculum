@@ -41,11 +41,11 @@
         <section id="sobreMi">
             <div id="resumenSobreMi">
                 <h2>Sobre mí</h2>
-                <p>Soy una persona bastante curiosa y apasionada en aprender nuevas cosas, 
+                <p class="parrafoSobreMi">Soy una persona bastante curiosa y apasionada en aprender nuevas cosas, 
                     desde la geografía hasta la investigación, mi rango de intereses y habilidades 
                     cubre muchos campos. Siempre busco incentivar el discurso y la oratoria 
                     en las personas, buscando nuevos paradigmas de conocimiento y 
-                    aprendiendo de las opiniones de los demás</p>
+                    aprendiendo de las opiniones de los demás.</p>
             </div>
             
 
@@ -59,13 +59,13 @@
             <h2>Educación</h2>
 
             <section class="educacionAcademica">
-                <div id="universidad">
-                    <h3>Escuela Superior Politécnica del Litoral</h3>
+                <div class="unidadEducativa">
+                    <h2>Escuela Superior Politécnica del Litoral</h2>
                     <img src="/1er Parcial/curriculum/img/logo-espol.svg" alt="Logo Espol" width="300px">
                 </div>
 
-                <div id="colegio">
-                    <h3>Unidad Educativa Particular Politécnica</h3>
+                <div class="unidadEducativa">
+                    <h2>Unidad Educativa Particular Politécnica</h2>
                     <img src="/1er Parcial/curriculum/img/logo-copol.jpg" alt="Logo Copol" width="300px">
                 </div>
             </section>
@@ -75,11 +75,49 @@
         <hr class="divisor">
 
         <section id="publicaciones">
-            <div class="publicacionesCientificas">
-                <img src="">
+            <h2>Publicaciones</h2>
+            <div class="contenedor-publicaciones">
+                <article class="publicacion">
+                    <header>
+                        <h4>Análisis de estrategias de mercado de Tuenti</h4>
+                    </header>
+                    
+                    <figure>
+                        <img src="/1er Parcial/curriculum/img/monografia.png" alt="Monografía">
+                        <p>¿En qué medida fueron convenientes las estrategias de desarrollo de 
+                            mercado elaboradas Tuenti al entrar al mercado ecuatoriano de 
+                            telecomunicaciones en el 2015?</p>
+                    </figure>
+                    <a href="https://espolec-my.sharepoint.com/:b:/g/personal/nasierra_espol_edu_ec/ESE4pu9puYRCpy5lWabuQ6wBBkiGA6bnmg-zpi2IhNAo0g?e=RLO81N" target="_blank">Leer más</a>
+                </article>
+
+                <article class="publicacion">
+                    <header>
+                        <h4>PIB en la utilización como herramamienta para determinar el índice de pobreza</h4>
+                    </header>
+
+                    <figure>
+                        <img src="/1er Parcial/curriculum/img/interna_mate.png" alt="Interna Matemáticas">
+                        <p>¿Hasta qué punto puede la variación del PIB de un país usarse como 
+                            herramienta para determinar el nivel de pobreza de un país?<p>
+                    </figure>
+                    <a href="https://espolec-my.sharepoint.com/:b:/g/personal/nasierra_espol_edu_ec/ETucVGrmRaNPq4Y020bo7r8BrOd3qp6CMhOknBJssM1KKQ?e=qtoydC" target="_blank">Leer más</a>
+                </article>
+
+                <article class="publicacion">
+                    <header>
+                        <h4>Análisis de mercado Cervecería Nacional</h4>
+                    </header>
+
+                    <figure>
+                        <img src="/1er Parcial/curriculum/img/interna_empresa.png" alt="Interna Empresa">
+                        <p>¿Cómo puede Cervecería Nacional implementar un canal efectivo de sus 
+                            promociones mediante distribución indirecta de sus productos? </p>
+                    </figure>
+                    <a href="https://espolec-my.sharepoint.com/:b:/g/personal/nasierra_espol_edu_ec/EW4IHzBi0-lMg-wV4VwDauABxro-LSX2BcK_ggLlOR9aUg?e=ja1efv" target="_blank">Leer más</a>
+                </article>
 
             </div>
-
 
         </section>
 
@@ -135,6 +173,12 @@
                             <label for="comentarios">Comentarios:</label>
                         </span><br>
                         <textarea id="telefono" name="telefono" maxlength="250"></textarea>
+                    </div>
+
+                    <div>
+                        <span>
+                            <button class="boton-enviar">Enviar</button>
+                        </span>
                     </div>
                     
                 </form>
